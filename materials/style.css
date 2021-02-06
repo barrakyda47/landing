@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+.transition{
+	transition: 1s;
+}
+body{
+	background-image: url(../materials/lis.jpg);
+	background-attachment: fixed;
+	margin: 0px;
+}
+.maindiv {
+	background-color:none;
+	margin: 0 70px 0 70px;
+	opacity: 1;
+	float:center;
+}
+.bashka {
+	background-color: #6FBFF3;
+	opacity: 0.7;
+	top: 0;
+	height: 100px;
+	margin: 0 0 0 0;
+}
+
+nav {
+	text-align: center;
+	padding: 20px 0px 20px 0px;	
+	letter-spacing: 1px;
+    background: #FF9200 ;
+    position: sticky;
+    top: 0;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+.ass{
+	font-family: 'Sriracha', cursive;
+	text-transform: uppercase;
+	color: #000AFF ;
+}
+nav li {
+	
+	display: inline-block;
+	font-size: 20px;
+	padding-right: 150px;
+	padding-left: 150px;
+	text-decoration: none;
+	font-family: Georgia, serif;
+}
+a	{
+	font-family: Audiowide;
+	text-decoration: none;
+}
+
+.logo1 img{
+	width: 60px;
+	height: 60px;
+	margin: 0  0  0 0;
+	opacity: 1;
+	position: fixed;
+	padding-left: 5px;
+	padding-bottom: 5px;
+    bottom: 0;
+}
+.zag{
+	text-transform: uppercase;
+	padding-top: 30px;	
+	margin: 0;
+	text-align: center;
+	font-family: cursive;
+	font-size: 30px;
+	color: #9400FF ;
+}
+.contacts{
+	background-color:	yellow;	
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+	width:100%;
+}
+.contacth1{
+	text-align:center;
+	font-family: 'Sriracha', cursive;
+}
+.contactsimg2{
+	position: float;
+	width:300px;
+	height:300px;
+	margin: 1% 10% 1% 10%;
+}
+.divimg{
+	text-align:center;
+}
+
+.footer{
+	background-color:#230066 ;
+/* 	height:100px; */
+	text-align: center;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+.footer2{
+	font-family: 'Sriracha', cursive;
+	font-size:20px;
+	color:white;
+	padding:20px 0 20px 0;
+	margin:30px 0 0 0;
+
+}
+.about{
+	text-align:center;
+	background-color: #A16FFF ;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+	height: 670px;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.imgme{
+	border: 5px solid black;
+/* 	height: 504px;
+	width: 396px; */
+	height: 30%;
+	width:30%;
+    float:left;
+	margin: 0px 15px 0px 10px;
+}
+.imgme:hover{
+	border: 5px solid red;
+}
+h1{
+	font-size:40px;
+}
+.aText1{
+/*	font-family: Audiowide;
+	text-align:center; */
+
+	font-family: 'Sriracha', cursive;
+}
+.aText2{
+	
+	text-align:left;
+	font-size: 20px;
+	font-family: cursive;
+}
+.skills{
+	height: 800px;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #E5E7E6 ;
+}
+.sText1{
+	font-family: 'Sriracha', cursive;
+	text-align: center;
+}
+.sText3{
+	float: right;
+	margin-right: 100px;
+	margin-bottom: 15px;
+	font-family: Verdana, sans-serif;
+	font-size: 25px;
+}
+h1 {
+	padding-top: 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 40px;
+} 
+.ass:hover {
+	color: pink;
+}
+progress{
+	float: right;
+	margin-right: 60px;
+	font-size: 500%;
+}
+.progressSS{
+	opacity: 0; 	
+	font-size: 300%;
+}
+	.logo2{
+	width: 300px;
+	height: 300px;
+	opacity: 0;
+	position: fixed;
+    top: 50px;
+	}
+	.eText{
+	text-align: center;
+	opacity:0;
+	position: fixed;
+    top: 0;
+	}
+@media screen and (max-width: 1285px) {
+	body{
+	background-image: url(../materials/back.jpg);
+	background-attachment: fixed;
+	background-color:#6FBFF3;
+	margin: 0px;
+	}
+	h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	}	 
+	nav li {
+	font-size: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	}
+	.contactsimg2{
+	width:200px;
+	height:200px;
+	margin: 1% 5% 1% 5%;
+	}
+	progress{
+	margin-right: 10%;
+	font-size: 300%;
+	}
+	.sText3{
+	margin-right: 50px;
+	margin-bottom: 15px;
+	font-size: 25px;
+	}
+	.progressSS{	
+	font-size: 200%;
+	}
+	.aText2{
+	font-size: 15px;
+	}
+	.about{
+	height: 450px;
+	}
+	.skills{
+	height: 650px;
+	}
+	.imgme{
+	height: 25%;
+	width:25%;
+	}
+}
+@media screen and (max-width: 940px) {
+	body{
+	background-image: none;
+	background-color:#6FBFF3;
+	margin: 0px;
+	}
+	.maindiv {
+	margin: 0 10px 0 10px;
+	}
+	.logo1 img{
+		width: 60px;
+		height: 60px;
+		margin: 0  0  0 0;
+		opacity: 1;
+		position: fixed;
+		padding-left: 5px;
+		padding-bottom: 5px;
+		top: 0;
+	}
+	h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	}	 
+	nav li {
+	font-size: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	}
+	.contactsimg2{
+	width:200px;
+	height:200px;
+	margin: 1% 5% 1% 5%;
+	}
+	progress{
+	margin-right:0;
+	font-size: 300%;
+	}
+	.sText3{
+	margin-right: 10px;
+	margin-bottom: 0;
+	padding-bottom: 15px;
+	font-size: 20px;
+	}
+	.progressSS{	
+	font-size: 200%;
+	}
+	.aText2{
+	font-size: 15px;
+	}
+	.about{
+	height: 450px;
+	}
+	.skills{
+	height: 550px;
+	}
+	.imgme{
+	height: 25%;
+	width:25%;
+	}
+	.zag{
+	font-size: 20px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.footer{
+	opacity: 0;
+	}
+	nav{
+	opacity:0;
+	}
+	.bashka{
+	opacity:0;
+	}
+	.skills{
+	opacity: 0;
+	}
+	.contacts{
+	opacity: 0;
+	}
+	.about{
+	opacity: 0;
+	}	
+	.logo2{
+	width: 300px;
+	height: 300px;
+	opacity: 1;
+	position: fixed;
+    top: 50px;
+	}
+	.eText{
+	text-align: center;
+	opacity:1;
+	position: fixed;
+    top: 0;
+	}
+	.logo1 img{
+		opacity: 0;
+	}
+}
+
+/* TOP RIGHT BOT LEFT*/
